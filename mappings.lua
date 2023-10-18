@@ -32,6 +32,10 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    ["<leader>rr"] = {
+      "<esc><cmd>CellularAutomaton make_it_rain<cr>",
+      desc = "Code rain",
+    },
   },
   t = {
     -- setting a mapping to false will disable it
